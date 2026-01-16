@@ -1,0 +1,52 @@
+.black { 
+  color: #000000
+}
+
+.lightblack {
+  color: #0A0A0C
+}
+
+.purple {
+  color: #520050
+}
+
+.gray {
+  color: #958283
+}
+
+.red {
+  color: #CD1818;
+}
+
+.title-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+h2 {
+  margin-top: -2px;
+  font-size: 30px;
+  font-family: Oswald;
+  align-self: flex-start;
+
+}
+
+p {
+  margin-top: -10px;
+}
+
+.mainbox {
+  margin-top: 50px;
+}
+
+@media screen and (min-width: 600px) {
+  .mainbox {
+    margin-left: -400px;
+  }
+
+  .secondbox {
+    margin-left: 500px;
+  }
+}

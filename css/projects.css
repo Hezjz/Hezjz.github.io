@@ -1,0 +1,22 @@
+.black {
+    color: #000000
+}
+
+.lightblack {
+    color: #0A0A0C
+}
+
+.purple {
+    color: #520050
+}
+
+.gray {
+    color: #958283
+}
+
+.red {
+    color: #CD1818;
+}
+h2 {
+        align-self: flex-start;
+}

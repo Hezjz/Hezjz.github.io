@@ -1,27 +1,48 @@
-.black {color: #000000}
-.lightblack {color: #0A0A0C}
-.purple{color: #520050}
-.gray {color: #958283}
-.red {color: #CD1818;} 
+/*Contains colours i use in my page */
+.black {
+  color: #000000
+}
 
+.lightblack {
+  color: #0A0A0C
+}
+
+.purple {
+  color: #520050
+}
+
+.gray {
+  color: #958283
+}
+
+.red {
+  color: #CD1818;
+}
+
+/* Specific Css for my li*/
 li {
-  color:#CD1818;
+  color: #CD1818;
   font-size: 20px;
   font-family: Oswald;
   font-weight: 400;
-
 }
+
+/*Specific informaiton about the title for the list */
 ol {
-  color:#CD1818;
+  color: #CD1818;
   font-family: Oswald;
   margin-right: 35px;
   font-size: 30px;
   font-weight: 500;
 }
+
+/*adding seprate colour and lettertype to the descreption about the list items*/
 dl {
   color: #958283;
   font-family: Amethysta;
 }
+
+/*Specific extra css for mainbox's */
 .mainbox {
-    margin-top: 50px;
+  margin-top: 50px;
 }

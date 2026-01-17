@@ -1,3 +1,4 @@
+/*Colours i use for my websitex*/
 .black {
     color: #000000
 }
@@ -17,6 +18,8 @@
 .red {
     color: #CD1818;
 }
+
+/*Specifc css for inbox title's*/
 h2 {
-        align-self: flex-start;
+    align-self: flex-start;
 }

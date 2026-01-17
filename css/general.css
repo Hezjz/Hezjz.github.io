@@ -1,3 +1,4 @@
+/*Colours i use for my website */
 .black {
     color: #000000
 }
@@ -18,6 +19,7 @@
     color: #CD1818;
 }
 
+/*Css for the body background and making sure the page has no padding and margin art the start of making the page*/
 body {
     padding: 0px;
     margin: 0px;
@@ -25,7 +27,7 @@ body {
     background-color: #101010;
 }
 
-
+/*Footer Css making sure it looks right */
 footer {
     background-color: #000000;
     height: 70px;
@@ -35,7 +37,7 @@ footer {
     margin-top: 100px;
 }
 
-
+/*Css for the body seprate from the footer and header */
 main {
     display: flex;
     flex-direction: column;
@@ -43,6 +45,7 @@ main {
     align-items: center;
 }
 
+/*Css for title inside mainbox's */
 h2 {
     display: flex;
     color: #CD1818;
@@ -51,11 +54,13 @@ h2 {
     font-weight: 400;
 }
 
+/*Css for the paragraphs inside the mainbox's */
 p {
     font-family: Amethysta;
     color: #958283;
 }
 
+/*Css for the header where navigation is */
 header {
     background-color: #000000;
     height: 100px;
@@ -66,6 +71,7 @@ header {
     width: auto;
 }
 
+/*Specific css for the nav inside footer and nav */
 nav {
     height: 70px;
     display: flex;
@@ -75,6 +81,7 @@ nav {
     justify-content: space-between;
 }
 
+/*Specific css for the links */
 .nav-Link {
     text-decoration: none;
     color: #CD1818;
@@ -84,6 +91,7 @@ nav {
     font-family: Oswald;
 }
 
+/*CSS for the mainbos i reguragly use. VERY IMPORTANT*/
 .mainbox {
     height: auto;
     width: 300px;
@@ -97,6 +105,7 @@ nav {
     flex-direction: column;
 }
 
+/*CSS for the title text's*/
 .title-text {
     font-size: 40px;
     font-weight: 600;

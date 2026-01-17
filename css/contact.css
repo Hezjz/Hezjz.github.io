@@ -1,3 +1,4 @@
+/*Colours i use for my site */
 .black {
     color: #000000
 }
@@ -18,10 +19,12 @@
     color: #CD1818;
 }
 
+/*specific width for the icons for the contacts */
 .contact-img {
     width: 40px;
 }
 
+/*Seprate css for the main boxes */
 .mainbox {
     margin-top: 50px;
 }

@@ -14,19 +14,26 @@
     rel="stylesheet">
   <link rel="stylesheet" href="../css/general.css">
   <link rel="stylesheet" href="../css/projects.css">
-  <source src="../javascript/general.js" type="">
-  <source src="../javascript/projects.js" type="">
 </head>
 
 <body>
-  <header class="nav-Box  black">
-    <!--the head for navigation-->
-    <nav id="my-Links">
+ <header class="header-mobile">
+    <button onclick="toggleNav()">=</button>
+    <nav id="nav-mobile">
+      <a class="nav-Link" href="../index.html">Mainpage</a>
+      <a class="nav-Link" href="capabilities.html">Capabilities</a>
+      <a class="nav-Link" href="projects.html">Projects</a>
+      <a class="nav-Link" href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <!--the head for navigation-->
+  <header class="nav-Box  header-desktop">
+    <nav id="nav-Links">
       <!--contain links towards seprate pages-->
       <a class="nav-Link" href="../index.html">Mainpage</a>
       <a class="nav-Link" href="capabilities.html">Capabilities</a>
-      <a class="nav-Link" href="contact.html">Contact</a>
       <a class="nav-Link" href="projects.html">Projects</a>
+      <a class="nav-Link" href="contact.html">Contact</a>
     </nav>
   </header>
   <main>
@@ -65,5 +72,6 @@
   </footer>
 </body>
 </body>
-
+  <script src="../javascript/general.js" type=""></script>
+  <script src="../javascript/projects.js" type=""></script>
 </html>

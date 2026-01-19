@@ -85,7 +85,7 @@ nav {
 .nav-Link {
     text-decoration: none;
     color: #CD1818;
-    font-size: 25px;
+    font-size: 20px;
     height: 50px;
     width: 100px;
     font-family: Oswald;
@@ -115,20 +115,6 @@ nav {
     color: #CD1818;
 }
 
-@media screen and (min-width: 600px) {
-    .title-text {
-        font-size: 55px;
-    }
-
-    h2 {
-        font-size: 45px;
-    }
-
-    p {
-        font-size: 25px;
-    }
-
-}
 
 ul {
     list-style-type: none;
@@ -144,21 +130,41 @@ ul li {
 }
 
 .header-mobile {
-    background-color: rgb(40, 156, 160);
     padding: 12px;
+}
 
+button {
+    background-color: #CD1818;
+    width: 60px;
+    height: 60px;
 }
 
 #nav-mobile {
     display: none;
 }
 
-.flex {
-    display: flex;
-}
 
+@media screen and (min-width: 600px) {
+    .title-text {
+        font-size: 55px;
+    }
 
-@media only screen and (min-width: 600px) {
+    h2 {
+        font-size: 45px;
+    }
+
+    p {
+        font-size: 25px;
+    }
+
+    .nav-Link {
+        font-size: 30px;
+    }
+
+    nav {
+        width: 800px;
+    }
+
     .header-desktop {
         display: block;
         display: flex;
@@ -172,3 +178,9 @@ ul li {
         display: none;
     }
 }
+
+@media screen and (max-width: 600px) {
+    footer {display: none;}
+}
+
+

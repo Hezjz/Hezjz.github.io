@@ -46,3 +46,17 @@ dl {
 .mainbox {
   margin-top: 50px;
 }
+
+.crow-logo {
+  margin-left: 50px;
+}
+
+/*Changes for the desktop versionF*/
+@media screen and (min-width: 600px) {
+ .mainbox {width: 600px;}
+  ol {font-size: 45px;}
+  dl {font-size: 25px;}
+  li {font-size: 35px;} 
+  img {width: 160px;
+  margin-left: 40px;}
+}

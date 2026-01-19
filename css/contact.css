@@ -24,7 +24,13 @@
     width: 40px;
 }
 
-/*Seprate css for the main boxes */
+/*Specific extra css for mainbox's */
 .mainbox {
-    margin-top: 50px;
+  margin-top: 50px;
+}
+
+@media screen and (min-width: 600px) {
+img {width: 160px}
+.contact-img {width: 80px; }
+
 }

@@ -46,9 +46,13 @@ p {
 @media screen and (min-width: 600px) {
   .mainbox {
     margin-left: -400px;
+     width: 600px;
+
   }
 
   .secondbox {
     margin-left: 500px;
   }
+    img {width: 160px;}
+
 }

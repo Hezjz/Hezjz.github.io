@@ -114,3 +114,61 @@ nav {
     align-self: flex-start;
     color: #CD1818;
 }
+
+@media screen and (min-width: 600px) {
+    .title-text {
+        font-size: 55px;
+    }
+
+    h2 {
+        font-size: 45px;
+    }
+
+    p {
+        font-size: 25px;
+    }
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    display: inline-flex;
+    color: #CD1818;
+}
+
+.header-desktop {
+    display: none;
+}
+
+.header-mobile {
+    background-color: rgb(40, 156, 160);
+    padding: 12px;
+
+}
+
+#nav-mobile {
+    display: none;
+}
+
+.flex {
+    display: flex;
+}
+
+
+@media only screen and (min-width: 600px) {
+    .header-desktop {
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: auto;
+    }
+
+    .header-mobile {
+        display: none;
+    }
+}

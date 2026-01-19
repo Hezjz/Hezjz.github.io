@@ -8,7 +8,8 @@
   <!-- Links for the CSS and Javascript -->
   <link rel="stylesheet" href="css/general.css">
   <link rel="stylesheet" href="css/mainpage.css">
-  <link rel="stylesheet" href="javascript/mainpage.js">
+  <source src="javascript/general.js" type="">
+  <source src="javascript/mainpage.js" type="">
   <!--Links for google fonts oi use-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,8 +21,18 @@
 </head>
 
 <body>
+    <!--the head for navigation-->
+    <header class="header-mobile">
+        <button  onclick="toggleNav()" >=</button>
+        <nav id="nav-mobile">
+            <div>Home</div>
+            <div>About</div>
+            <div>Project</div>
+            <div>Contact</div>
+        </nav>
+    </header>
   <!--the head for navigation-->
-  <header class="nav-Box">
+  <header class="nav-Box  header-desktop">
     <nav id="nav-Links">
       <!--contain links towards seprate pages-->
       <a class="nav-Link" href="index.html">Mainpage</a>

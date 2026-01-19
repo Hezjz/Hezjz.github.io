@@ -23,3 +23,32 @@
 h2 {
     align-self: flex-start;
 }
+
+/*Specific extra css for mainbox's */
+.mainbox {
+    margin-top: 50px;
+}
+a {
+    color: #CD1818;
+    font-size: 15px;
+    text-decoration: none;
+    align-self: flex-start;
+
+}
+
+@media screen and (min-width: 600px) {
+    .mainbox {
+        margin-left: -400px;
+        width: 600px;
+
+    }
+    a {font-size: 30px;}
+
+    img {
+        width: 160px;
+    }
+
+    .secondbox {
+        margin-left: 500px;
+    }
+}
